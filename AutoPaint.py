@@ -31,7 +31,7 @@ pyautogui.screenshot('captura.png')
 pyautogui.moveTo(100, 100, duration=1)
 
 
-interface = pyautogui.locateOnScreen('paint.jpg', confidence=0.9)
+interface = pyautogui.locateOnScreen('paint.jpg', confidence=0.5)
 
 #Movemos el raton a la posicion del lapiz
 pyautogui.moveTo(interface)
